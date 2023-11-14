@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "play-dataspec"
+version = "0.1.0"
+description = "Explore Dataspec Python library"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dataspec = "^0.3.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+jupyterlab = "^4.0.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
